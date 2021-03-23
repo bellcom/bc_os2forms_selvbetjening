@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7d4fdbfd56a026936a459e1cffeb315",
+    "content-hash": "1c057f1dc96c79397bd007682d5f7700",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7312,6 +7312,9 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
                 "drupal": {
                     "version": "8.x-2.2",
                     "datestamp": "1549289280",
@@ -7532,6 +7535,54 @@
             }
         },
         {
+            "name": "drupal/webform_analysis",
+            "version": "1.0.0-beta7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform_analysis.git",
+                "reference": "8.x-1.0-beta7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform_analysis-8.x-1.0-beta7.zip",
+                "reference": "8.x-1.0-beta7",
+                "shasum": "218ee42c0d3d5c62bb29e0e68134188dc2a16c85"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/webform": "*"
+            },
+            "require-dev": {
+                "drupal/webform_node": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta7",
+                    "datestamp": "1540735084",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "lbaran",
+                    "homepage": "https://www.drupal.org/user/3368098"
+                }
+            ],
+            "description": "Enables to obtain statistics on the results of form submissions.",
+            "homepage": "https://www.drupal.org/project/webform_analysis",
+            "support": {
+                "source": "https://git.drupalcode.org/project/webform_analysis"
+            }
+        },
+        {
             "name": "drupal/webform_composite",
             "version": "1.0.0-rc2",
             "source": {
@@ -7693,7 +7744,7 @@
             "extra": {
                 "drupal": {
                     "version": "6.0.2",
-                    "datestamp": "1614794871",
+                    "datestamp": "1614791851",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9910,16 +9961,16 @@
         },
         {
             "name": "os2forms/os2forms",
-            "version": "2.5",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OS2Forms/os2forms.git",
-                "reference": "ff5acffa9cd19c16b8eb1a41d3fce78b29f8ee48"
+                "reference": "5f26d647ceea382b8df5fdcc86d2b9d87bb7ce01"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/OS2Forms/os2forms/zipball/ff5acffa9cd19c16b8eb1a41d3fce78b29f8ee48",
-                "reference": "ff5acffa9cd19c16b8eb1a41d3fce78b29f8ee48",
+                "reference": "5f26d647ceea382b8df5fdcc86d2b9d87bb7ce01",
                 "shasum": ""
             },
             "require": {
@@ -9994,16 +10045,16 @@
         },
         {
             "name": "os2web/os2web_datalookup",
-            "version": "1.0.2",
+            "version": "1.0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OS2web/os2web_datalookup.git",
-                "reference": "5d1cd640292663625a9fbfdbf6e2ce40ae4b41f6"
+                "reference": "58735fe34cb85eb7abff0926a8dbc7729167452c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OS2web/os2web_datalookup/zipball/5d1cd640292663625a9fbfdbf6e2ce40ae4b41f6",
-                "reference": "5d1cd640292663625a9fbfdbf6e2ce40ae4b41f6",
+                "url": "https://api.github.com/repos/OS2web/os2web_datalookup/zipball/58735fe34cb85eb7abff0926a8dbc7729167452c",
+                "reference": "58735fe34cb85eb7abff0926a8dbc7729167452c",
                 "shasum": ""
             },
             "require": {
@@ -10015,7 +10066,7 @@
                 "EUPL-1.2"
             ],
             "description": "Provides integration with Danish data lookup services such as Service platformen or Datafordeler.",
-            "time": "2021-03-03T13:26:58+00:00"
+            "time": "2021-03-08T11:35:37+00:00"
         },
         {
             "name": "os2web/os2web_logging",
@@ -16820,6 +16871,7 @@
     "stability-flags": {
         "drupal/ldap": 10,
         "drupal/simple_ldap": 15,
+        "drupal/webform_analysis": 10,
         "drupal/webform_composite": 5,
         "drupal/webform_migrate": 20,
         "drupal/webform_views": 15,
@@ -16831,5 +16883,6 @@
     "platform": {
         "php": ">=7.1"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
