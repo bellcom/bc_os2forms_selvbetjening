@@ -12,7 +12,7 @@ At the current moment OS2Forms is ready to install or upgrade to Drupal 9 versio
 
 PLAN THE UPGRADE TO DRUPAL 9 VERSION OF OS2FORMS **AS SOON AS POSSIBLE**
 
-See detailed [steps to update your project to Drupal 9](https://github.com/OS2Forms/os2forms8/tree/develop#upgrade-from-drupal-8-to-drupal-9) below in this page.
+See detailed [steps to update your project to Drupal 9](https://github.com/bellcom/bc_os2forms_selvbetjening/tree/develop#upgrade-from-drupal-8-to-drupal-9) below in this page.
 
 Drupal 8 version is still maintained to get bugfixes.
 However, due to EOL of Drupal 8 in November 2021 Drupal core will not get its security update.
@@ -28,7 +28,7 @@ If you still use Drupal 8 version of OS2Forms you can use following branches to 
 
 1. Clone the git repository
    ```sh
-   git clone git@github.com:OS2Forms/os2forms8.git
+   git clone git@github.com:bellcom/bc_os2forms_selvbetjening.git
    ```
 
 2. Enter the newly created project directory
@@ -62,7 +62,7 @@ If you still use Drupal 8 version of OS2Forms you can use following branches to 
 
 1. Clone the git repository
    ```sh
-   git clone git@github.com:OS2Forms/os2forms8.git
+   git clone git@github.com:bellcom/bc_os2forms_selvbetjening.git
    ```
 
 2. Enter the newly created project directory
@@ -135,7 +135,7 @@ For a more detailed description, you could look at the `web/core/INSTALL.txt` [h
 
 1. Clone the git repository
 ```sh
-git clone git@github.com:OS2Forms/os2forms8.git
+git clone git@github.com:bellcom/bc_os2forms_selvbetjening.git
 ```
 It assumes that you have configured your web-server to use path `[/vhost/path]/os2web8/web` as document root folder.
 
@@ -275,7 +275,7 @@ Test cases:
 - User can login via nemid and see prefilled data in nemid fields
 
 NOTE: This list might not include some cases that is crucial for you installation.
-If you think that this list has missing test cases that are crucial for OS2Forms in general, feel free to [submit an issue](https://github.com/OS2Forms/os2forms8/issues) and describe the issue you are missing there.
+If you think that this list has missing test cases that are crucial for OS2Forms in general, feel free to [submit an issue](https://github.com/bellcom/bc_os2forms_selvbetjening/issues) and describe the issue you are missing there.
 
 ## Contributing
 
@@ -294,7 +294,7 @@ Since you have installed docksal it's easy to get installed default installation
 Use following commands:
 ```
 # Clone project if you didn't do it yet
-git clone git@github.com:OS2Forms/os2forms8.git os2forms8-dev
+git clone git@github.com:bellcom/bc_os2forms_selvbetjening.git os2forms8-dev
 cd os2forms8-dev
 # Start docksal environment
 fin start
