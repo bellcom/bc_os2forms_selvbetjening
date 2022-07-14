@@ -115,8 +115,7 @@
         "os2core/os2core": "^2.0",
         "os2forms/os2forms": "~3.1",
         "os2forms/os2forms_egbolig": "dev-master",
-        "os2forms/os2forms_forloeb": "^1.9",
-        "os2forms/os2forms_forloeb_profile": "1.6.0-rc",
+        "os2forms/os2forms_forloeb_profile": "^1.9.0",
         "os2web/os2web_logging": "dev-master",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2",
@@ -192,9 +191,6 @@
             "force-reset": true
         },
         "patches": {
-            "drupal/coc_forms_auto_export": {
-               "3240592 - Problem with phpseclib requirement in 2.x": "https://www.drupal.org/files/issues/2021-10-04/requirement-namespace-3240592-1.patch"
-            },
             "drupal/webform": {
                "Add support for Set to state": "./patches/add-set-to-state-3159806-2-modified-5.19.patch"
             },
@@ -212,9 +208,6 @@
             },
             "drupal/queue_mail": {
                 "Admin interface to see queued mail": "https://www.drupal.org/files/issues/2020-06-30/3096917-ui-queue-mail-moderate-5.patch"
-            },
-            "drupal/smtp": {
-                "Duplicated Attachments using webforms": "https://www.drupal.org/files/issues/2020-06-18/smtp-2995290-17.patch"
             },
             "drupal/honeypot" : {
                 "3279917 - LogicException: The database connection is not serializable": "https://www.drupal.org/files/issues/2022-05-12/3279917-4-use_dependency_serialization_trait.patch"
