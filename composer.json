@@ -89,8 +89,9 @@
         "drupal/bootstrap": "^3.21",
         "drupal/config_entity_revisions": "1.7.0",
         "drupal/console": "^1.0.2",
-        "drupal/core-composer-scaffold": "~9.2.13",
-        "drupal/core-recommended": "~9.2.13",
+        "drupal/core-composer-scaffold": "~9.3.19",
+        "drupal/core-project-message": "~9.3.19",
+        "drupal/core-recommended": "~9.3.19",
         "drupal/fontyourface": "^3.2",
         "drupal/header_and_footer_scripts": "^3.0",
         "drupal/ldap": "^4.2",
@@ -208,9 +209,6 @@
             },
             "drupal/queue_mail": {
                 "Admin interface to see queued mail": "https://www.drupal.org/files/issues/2020-06-30/3096917-ui-queue-mail-moderate-5.patch"
-            },
-            "drupal/honeypot" : {
-                "3279917 - LogicException: The database connection is not serializable": "https://www.drupal.org/files/issues/2022-05-12/3279917-4-use_dependency_serialization_trait.patch"
             }
         }
     }
