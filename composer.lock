@@ -11369,16 +11369,16 @@
         },
         {
             "name": "os2web/os2web_nemlogin",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OS2web/os2web_nemlogin.git",
-                "reference": "e714118af2c1393e3319f1786bf74c45aacb1a5a"
+                "reference": "3fa715ae42cde5da9cabb0c6189a1162fffff83d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OS2web/os2web_nemlogin/zipball/e714118af2c1393e3319f1786bf74c45aacb1a5a",
-                "reference": "e714118af2c1393e3319f1786bf74c45aacb1a5a",
+                "url": "https://api.github.com/repos/OS2web/os2web_nemlogin/zipball/3fa715ae42cde5da9cabb0c6189a1162fffff83d",
+                "reference": "3fa715ae42cde5da9cabb0c6189a1162fffff83d",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -11389,9 +11389,9 @@
             "description": "Provide authentication via Nemlogin",
             "support": {
                 "issues": "https://github.com/OS2web/os2web_nemlogin/issues",
-                "source": "https://github.com/OS2web/os2web_nemlogin/tree/1.1.2"
+                "source": "https://github.com/OS2web/os2web_nemlogin/tree/1.2.0"
             },
-            "time": "2022-06-21T11:28:57+00:00"
+            "time": "2022-08-11T08:37:20+00:00"
         },
         {
             "name": "os2web/os2web_simplesaml",
