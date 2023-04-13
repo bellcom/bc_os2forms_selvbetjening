@@ -27,6 +27,7 @@
         "drupal/core": "^8.9",
         "drupal/core-composer-scaffold": "^8.9",
         "drupal/devel": "^4.1",
+        "drupal/entity_export_csv": "*",
         "drupal/fontyourface": "^3.2",
         "drupal/header_and_footer_scripts": "^2.2",
         "drupal/ldap": "^3.0@beta",
