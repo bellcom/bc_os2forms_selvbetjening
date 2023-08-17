@@ -23,9 +23,7 @@
     .progress-step {
       .progress-marker {
         background: #fff;
-        box-shadow: 0 0 0 1px #b2aead;
         color: $text-color;
-        padding-top: 6px;
       }
 
       &.is-active {
@@ -68,6 +66,26 @@
       }
     }
   }
+}
+
+.webform-progress-tracker .progress-step .progress-marker {
+  box-shadow: none !important;
+  padding-top: 0 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.progress-marker::before {
+  padding-bottom: 0 !important;
+
+}
+
+.progress-marker::after {
+  z-index: 10 !important;
+}
+
+.webform-progress-tracker .progress-step.is-complete .progress-marker {
+  border: none !important;
 }
 
 // --------------------------------------------------
