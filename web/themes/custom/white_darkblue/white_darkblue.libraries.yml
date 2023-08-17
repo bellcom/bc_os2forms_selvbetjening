@@ -2,6 +2,7 @@ styles:
   css:
     theme:
       dist/stylesheets/stylesheet.css: {}
+      src/styles/menu-icons.css: {}
 
 javascripts:
   js:
