@@ -29,6 +29,11 @@ img {
   max-width: 100%;
 }
 
+a.toolbar-icon {
+  font-size: 16px !important;
+  text-decoration: none;
+}
+
 .icon {}
 
 .form-control {
@@ -51,7 +56,7 @@ body {
 a {
 
   &:not(.btn) {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:visited {
       color: #800080;
